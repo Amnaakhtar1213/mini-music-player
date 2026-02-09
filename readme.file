@@ -1,0 +1,22 @@
+# MINI-MUSIC-player
+
+This is a mini music player made with the HTML, CSS and a little bit of JavaScript.It contain 1 KOREAN song. It has a song image, song title and the Artist name . I add 3 button but firstly i add functionality in one button . i transit play button to pause and pause to play.
+
+---
+## Feature
+- Smooth Transition play/pause 
+
+---
+
+## Technologies used 
+- **HTML**            -> for structure
+- **CSS**             -> for styling
+- **JavaScript**      -> adding logic and functionality
+
+---
+
+## How to Run
+
+Clone this repository:
+```bash
+git clone https://github.com/Amnaakhtar1213/mini-music-player.practics.git
