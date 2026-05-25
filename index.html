@@ -3,53 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>player practics</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>MUSIC PLAYER</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="container">
-   <div class="music-player">
+  <div class="head-music">
+    <nav>
+    <div class="circle">
+      <i class="fa-solid fa-heart"></i>
+      </div>
+      <div>
+        <h3 class="title">NOW PLAYING</h3>
+      </div>
+      <div  class="circle">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      
+      
+    </nav>
 
-<nav>
-   <div class="circle">
-      <i class="fa-solid fa-angle-left"></i>
+    <div class="white">
+         <img class="img" src="watch it, feel it.jpg">
+          <h1 class="song-name">Watch it, Feel it</h1> 
+          <p class="artist">DYNAMICDUO<br>feat. SUNGHOON of ENHYPEN</p>
+    </div>
+    <div class="music">
+     <audio controls loop>
+    <source src="milano-cortina.mp3" type="audio/mpeg">
+   </audio>
+   
+    </div>
    </div>
-   <div class="circle">
-      <i class="fa-solid fa-bars"></i>
-   </div>
-</nav>
-
-
-<img src="duo-pic.jpg" class="song-img">
-<h1>AEAO</h1>
-<P>Dynamic Duo</P>
-
-<audio   id="song">
-   <source src="AEAO.mp3" type="audio/mpeg">
-</audio>
-
-<input type="range" value="0" id="progress">
-
-<div class="controls">
-   <div>
-      <i class="fa-solid fa-backward"></i>
-   </div>
-    <div>
-      <i class="fa-solid fa-play" id="ctrl-icon"></i>
-   </div>
-   <div>
-      <i class="fa-solid fa-forward"></i>
-   </div>
-</div>
-  </div>
-</div>
-
-
-
-
-
-  <script src="apps.js"></script>
+ 
+ 
 </body>
-
 </html>
